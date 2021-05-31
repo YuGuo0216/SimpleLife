@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TotalPage">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/grey9"
+        android:text="简约生活"
+        android:textSize="60dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="80dp"/>
+
+    <Button
+        android:id="@+id/button_note"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:layout_marginTop="500dp"
+        android:text="记事"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_tally"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:text="记账"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="250dp"/>
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text=" "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+</RelativeLayout>
